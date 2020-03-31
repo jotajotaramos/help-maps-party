@@ -147,7 +147,7 @@ Seguiremos los pasos descritos en https://cli.vuejs.org/guide/deployment.html#fi
 2. Ejecutar `firebase init``
 3. Te pedirá hacer login en la consola de Firebase
 4. La consola te preguntará qué quieres hacer, elige "hosting"
-5. Selecciona el proyecto en el que quieres hacer el despliegue. Si has completado los pasos anteriores lo tendrás ya creado, así que seleccionalo.
+5. Selecciona el proyecto en el que quieres hacer el despliegue. Si has completado los pasos anteriores lo tendrás ya creado, así que seleccionalo. Nota: es posible que tu proyecto no se llame igual que el proyecto que viene dado por defecto en /.firebaserc; si es así, simplemente deja el campo "default" vacío en /.firebaserc.
 6. La carpeta `public` de tu app es `dist`(por defecto viene definido `public`)
 7. Te pregutna si es una aplicación de una sola página, responde `Y`
 8. Has terminado la configuración, lanza una *build*  con `npm run build``
